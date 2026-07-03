@@ -6,7 +6,7 @@ import sys
 from flask import Flask, render_template, request
 
 import logging
-from log_code import setup_logging
+from logging_code import setup_logging
 logger = setup_logging('app')
 
 import warnings
